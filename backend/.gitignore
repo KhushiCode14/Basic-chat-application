@@ -1,5 +1,6 @@
 # Node.js dependencies
-/node_modules/
+node_modules/
+package-lock.json
 
 # Logs
 npm-debug.log*
@@ -35,11 +36,13 @@ bower_components/
 *.swp
 *.swo
 
-# NPM package lock files (if you use Yarn, ignore yarn.lock instead)
-package-lock.json
-
 # TypeScript
-/tsconfig.json
+tsconfig.json
 
 # Tests
 /coverage
+
+
+
+.env
+.env*

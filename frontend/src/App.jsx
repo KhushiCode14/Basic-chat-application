@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import { io } from "socket.io-client";
 // import Chat from "./Chat";
 const backend_url = import.meta.env.VITE_BACKEND_URL;
-
+console.log(backend_url);
 const socket = io(backend_url);
 // import "./index.css";
 function App() {

@@ -3,11 +3,10 @@ import PropTypes from "prop-types";
 const Chat = ({
   username,
   room,
-  socket,
+
   handleSendMessage,
   setNewMessage,
   message,
-  setMessage,
 }) => {
   return (
     <div className="flex flex-col h-screen">
